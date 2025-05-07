@@ -1,7 +1,0 @@
-torch==2.5.1
-torchvision==0.20.1
-gymnasium[classic-control,box2d] @ git+https://github.com/Farama-Foundation/Gymnasium.git@e732459
-tqdm
-ipykernel
-ipywidgets
-matplotlib

@@ -5,10 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "gymnasium[box3d,classic-control,mujoco]",
+    "gymnasium[box2d,box3d,classic-control,mujoco]",
     "ipykernel>=6.29.5",
     "ipywidgets>=8.1.5",
+    "livelossplot",
     "matplotlib>=3.10.1",
+    "mediapy>=1.2.2",
     "torch>=2.6.0",
     "torchvision>=0.21.0",
     "tqdm>=4.67.1",
@@ -16,3 +18,4 @@ dependencies = [
 
 [tool.uv.sources]
 gymnasium = { git = "https://github.com/Farama-Foundation/Gymnasium.git", rev = "e732459" }
+livelossplot = { git = "https://github.com/yongjincho/livelossplot", rev = "fix-max-cols" }
